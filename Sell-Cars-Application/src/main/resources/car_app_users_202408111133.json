@@ -1,0 +1,66 @@
+{
+"SELECT id, email, password, `role`, username\nFROM data_schema.car_app_users": [
+	{
+		"id" : 1,
+		"email" : "john.doe@example.com",
+		"password" : "$2a$10$a2cJfVQk\/kAN78uhOR\/dMuN3ZLp849SbQQooJYkqEPvf379QH1Yey",
+		"role" : "USER",
+		"username" : "john_doe"
+	},
+	{
+		"id" : 2,
+		"email" : "jane.seller@example.com",
+		"password" : "$2a$10$uFV\/BHaIR3hl97WeGrMuyeqIRsbodW.pi.AZHHV3FWeDBgAYQ3foG",
+		"role" : "SELLER",
+		"username" : "jane_seller"
+	},
+	{
+		"id" : 3,
+		"email" : "ashfaq.admin@example.com",
+		"password" : "$2a$10$DpbSt2MjYq5KpSRgFWPeIeMy.N0shYa1qFJG5r77Yw\/bj\/TRC8iHG",
+		"role" : "ADMIN,USER,SELLER",
+		"username" : "ashfaq_master"
+	},
+	{
+		"id" : 4,
+		"email" : "multi.seller@example.com",
+		"password" : "$2a$10$64c1aScjVlO66vCLvjajfevcLcr0fXrLCqboCZv.q7XRBO5Nkup9C",
+		"role" : "SELLER,USER",
+		"username" : "multi_seller"
+	},
+	{
+		"id" : 8,
+		"email" : "jones.seller@example.com",
+		"password" : "$2a$10$.6UCo.AYjl3m3.uCsnH37ODULZgQ8pyCghg8WfuH0dB7PWh2lwyYu",
+		"role" : "SELLER,USER",
+		"username" : "jones_seller"
+	},
+	{
+		"id" : 9,
+		"email" : "jon.seller@example.com",
+		"password" : "$2a$10$fx9MZ.S.7c8xfzBtXha8DuNeKCjIIac\/HMlytFM2vVSF8B88zVVLG",
+		"role" : "USER",
+		"username" : "jon_seller**Updated "
+	},
+	{
+		"id" : 11,
+		"email" : "ashfaq.admin@example.com",
+		"password" : "$2a$10$ZZLtKdjTo3PJ0SHcqCH5E.4nlOPn7bLMM\/kBic4PbF\/hAuumTSkfi",
+		"role" : "USER,SELLER",
+		"username" : "test-case"
+	},
+	{
+		"id" : 12,
+		"email" : "ashfaq.admin@example.com",
+		"password" : "$2a$10$t41czBVDo0eKNrWS.vxqnOMtS0kqlXZDOM6MJjR5cXDyNcpNp0z9a",
+		"role" : "USER,SELLER",
+		"username" : "test-case-admin"
+	},
+	{
+		"id" : 13,
+		"email" : "ashfaq.admin@example.com",
+		"password" : "$2a$10$kaQm0qoDDna5Kws9NTi.r.8eeg3pp7XIX2urJ\/hIPRPodMmrP.osm",
+		"role" : "USER,SELLER,ADMIN",
+		"username" : "test-case-admin-v1"
+	}
+]}
